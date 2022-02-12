@@ -1,0 +1,28 @@
+:root {
+  --yellowColor: rgb(248, 216, 37);
+}
+@font-face {
+  font-family: bebasnue;
+  src: url("BebasNeue-Regular.otf");
+}
+body {
+  background-color: var(--yellowColor);
+}
+.title {
+  text-align: center;
+  color: black;
+  font-family: bebasnue;
+  font-size: 5rem;
+}
+.kick {
+  display: block;
+  margin: auto auto auto auto;
+  width: 50%;
+}
+.content {
+  display: inline-block;
+  background-color: black;
+  color: var(--yellowColor);
+  border-radius: 15px;
+  width: 25vw;
+}
